@@ -25,4 +25,8 @@ public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
 {
     return false;
 }
+public void printPeriod (int period)
+{
+    for (int i = 0; i <)
+}
     }
