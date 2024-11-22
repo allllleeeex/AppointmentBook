@@ -27,6 +27,7 @@ public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
 }
 public void printPeriod (int period)
 {
-    for (int i = 0; i <)
+    for (int i = 0; i < schedule[period - 1].length; i++)
+    System.out.println(i+ " " + schedule[period -1][i]);
 }
     }
