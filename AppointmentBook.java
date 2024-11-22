@@ -1,6 +1,6 @@
 public class AppointmentBook 
     {
-    public boolean[][] schedule;
+    private boolean[][] schedule;
 
 public AppointmentBook (boolean[][] schedule) 
 {
@@ -18,7 +18,7 @@ private void reserveBlock(int period, int startMinute, int duration)
        
 public int findFreeBlock(int period, int duration) 
 {
-    return 0;
+    int block = 0;
 }
         
 public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
